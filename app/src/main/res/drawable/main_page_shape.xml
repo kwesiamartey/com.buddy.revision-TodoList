@@ -3,6 +3,6 @@
     <solid android:color="@color/colorPurple" />
     <corners android:topRightRadius="250dp" android:bottomLeftRadius="250dp" />
     <gradient
-        android:startColor="@color/colorWhite"
+        android:startColor="@color/colorPurple"
         android:endColor="@color/colorPurple" />
 </shape>

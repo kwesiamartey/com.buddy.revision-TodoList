@@ -12,6 +12,7 @@ import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.buddy.revision.Adapter.ListItemAdapter
+import com.buddy.revision.Adapter.SearchRecyclerView
 import com.buddy.revision.Entities.ItemsEntity
 import com.buddy.revision.ViewModels.ItemsViewModel
 import kotlinx.android.synthetic.main.fragment_search.view.*
@@ -40,7 +41,7 @@ class SearchFragment : Fragment() {
                 val layoutManager = LinearLayoutManager(requireContext())
                 layoutManager.orientation = LinearLayoutManager.VERTICAL
                 view.seacrh_recyclerview.layoutManager = layoutManager
-                val adapter = ListItemAdapter(
+                val adapter = SearchRecyclerView(
                     requireContext(),
                     it as MutableList<ItemsEntity>,
                     requireActivity(),themeColors,

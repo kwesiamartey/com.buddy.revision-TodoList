@@ -159,7 +159,7 @@
 
             <fragment
                 android:id="@+id/listOFTodoFragment"
-                android:name="com.todolist.android.ListOFTodoFragment"
+                android:name="com.buddy.revision.ListOFTodoFragment"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent" />
 
@@ -175,7 +175,7 @@
 
             <fragment
                 android:id="@+id/listItemsFragment"
-                android:name="com.todolist.android.ListItemsFragment"
+                android:name="com.buddy.revision.ListItemsFragment"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent" />
         </LinearLayout>
