@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorWhite"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colordeepGrey"
+        android:text="Choose Theme Color"
+        android:textSize="18dp"
+        android:padding="12dp"
+        android:fontFamily="sans-serif"
+        android:background="@color/colorGreyLight"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <LinearLayout
+            android:id="@+id/purple"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawableRight="@drawable/ic_purple"
+                android:gravity="center" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/cerulean"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawableRight="@drawable/ic_purple"
+                android:drawableTint="@color/colorCerulean"
+                android:gravity="center"
+              />
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/baby_pink"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawableRight="@drawable/ic_purple"
+                android:drawableTint="@color/colorBabyPink"
+                android:gravity="center" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/Grey"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawableRight="@drawable/ic_purple"
+                android:drawableTint="@color/grey"
+                android:gravity="center"
+                 />
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/yellow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawableRight="@drawable/ic_purple"
+                android:drawableTint="@color/coloryellow"
+                android:gravity="center"
+                 />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <LinearLayout
+            android:id="@+id/red"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawableRight="@drawable/ic_purple"
+                android:drawableTint="@color/colorRed"
+                android:gravity="center" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/green"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawableRight="@drawable/ic_purple"
+                android:drawableTint="@color/color_green"
+                android:gravity="center"
+                 />
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/dark"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawableRight="@drawable/ic_purple"
+                android:drawableTint="@color/colordeepGrey"
+                android:gravity="center"
+                 />
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/orange"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawableRight="@drawable/ic_purple"
+                android:drawableTint="@color/colorOrangeColor"
+                android:gravity="center"
+                 />
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/mauve"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawableRight="@drawable/ic_purple"
+                android:drawableTint="@color/colorMauve"
+                android:gravity="center"
+                 />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

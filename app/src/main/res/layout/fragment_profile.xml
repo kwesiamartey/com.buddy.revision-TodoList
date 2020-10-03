@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/profile_top_background"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:background="@drawable/bottom_curve"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/bk_arrow"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="12dp"
+                android:textColor="@color/colorWhite"
+                android:gravity="center"
+                android:drawablePadding="12dp"
+                android:drawableLeft="@drawable/ic_left_back_arrow" />
+
+            <ImageView
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:src="@drawable/avatar"/>
+            <TextView
+                android:id="@+id/f_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:textColor="@color/colorWhite"
+                android:padding="8dp"
+                android:text="Full Name: "/>
+            <TextView
+                android:id="@+id/p_email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:textColor="@color/colorWhite"
+                android:padding="2dp"
+                android:text="Email: "/>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/total_todos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:gravity="center"
+                android:textColor="@color/colordeepGrey"
+                android:padding="12dp"
+                android:text="Total sum of todos: "/>
+            <TextView
+                android:id="@+id/total_list"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:gravity="center"
+                android:textColor="@color/colordeepGrey"
+                android:padding="12dp"
+                android:text="Total sum of list: "/>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

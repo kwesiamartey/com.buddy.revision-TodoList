@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Todo List</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="add_item_title">ADD AN ITEM</string>
+    <string name="sort_by_date">Sort by date</string>
+    <string name="sort_by_my_myorder">My order</string>
+    <string name="admob_app_id">ca-app-pub-2350070540824577~2142704220</string>
+    <string name="admob_unit_id">ca-app-pub-2350070540824577/9254907487</string>
+</resources>

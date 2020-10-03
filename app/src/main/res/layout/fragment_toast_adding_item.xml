@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/form_background_shape"
+    android:padding="18dp">
+
+        <TextView
+            android:id="@+id/toasting_form"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="@string/add_item_title"
+            android:drawableLeft="@drawable/ic_list_item"
+            android:drawablePadding="12dp"
+            android:textStyle="bold"
+            android:textColor="@color/color_black"
+            android:textSize="18dp"/>
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="4dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/colorGreyLight"/>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp"/>
+        <EditText
+            android:id="@+id/txt_title"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:hint="Title"
+            android:textColor="@color/colordeepGrey"
+            android:paddingTop="12dp"
+            android:paddingBottom="12dp"/>
+
+        <EditText
+            android:id="@+id/txt_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Description"
+            android:isScrollContainer="true"
+            android:gravity="start|top"
+            android:inputType="textCapSentences|textMultiLine" />
+
+
+        <EditText
+            android:id="@+id/item_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="0dp"
+            android:layout_weight="0.5"
+            android:elevation="0dp"
+            android:editable="false"
+            android:gravity="center|start"
+            android:padding="13dp"
+            android:hint="Select date here" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="12dp"/>
+        <Button
+            android:id="@+id/btn_addItem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/all_curved_shape"
+            android:text="Add Item"
+            android:textColor="@color/colorWhite"
+            android:paddingTop="12dp"
+            android:paddingBottom="12dp"/>
+
+
+
+</LinearLayout>

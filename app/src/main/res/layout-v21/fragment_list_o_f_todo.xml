@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ListOFTodoFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="12dp">
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:gravity="center"
+          android:layout_weight="1"
+          android:orientation="vertical">
+
+          <LinearLayout
+              android:id="@+id/show_no_todos"
+              android:visibility="gone"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:gravity="center"
+              android:orientation="vertical">
+
+          <ImageView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:src="@drawable/ic_empty_todo"/>
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="Sorry no todos found"
+              android:textSize="18dp"
+              android:fontFamily="sans-serif"
+              android:textColor="@color/colorGreyLight"/>
+          </LinearLayout>
+
+
+          <androidx.recyclerview.widget.RecyclerView
+              android:id="@+id/my_list_recycler"
+              android:visibility="gone"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:descendantFocusability="blocksDescendants" />
+      </LinearLayout>
+
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:gravity="right"
+           android:paddingRight="12dp"
+           android:paddingBottom="8dp"
+           android:orientation="horizontal">
+           <com.google.android.material.floatingactionbutton.FloatingActionButton
+               android:id="@+id/btn_floating_add_item"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:src="@drawable/ic_add_item"
+               android:tint="@color/colorWhite" />
+       </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

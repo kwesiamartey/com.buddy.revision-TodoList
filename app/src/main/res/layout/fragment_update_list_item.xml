@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UpdateItemFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="18dp"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/show_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Title"
+            android:editable="false"
+            android:visibility="gone"
+            android:textStyle="bold"
+            android:textColor="@color/colorPurple"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Title"
+            android:editable="false"
+            android:textStyle="bold"
+            android:textColor="@color/colorPurple"/>
+        <EditText
+            android:id="@+id/txt_update_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableRight="@drawable/ic_person"
+            android:backgroundTint="@color/colorPurple"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Description"
+            android:editable="false"
+            android:textStyle="bold"
+            android:textColor="@color/colorPurple"/>
+        <EditText
+            android:id="@+id/txt_update_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:isScrollContainer="true"
+            android:gravity="start|top"
+            android:inputType="textCapSentences|textMultiLine"
+            android:drawableRight="@drawable/ic_description"
+            android:backgroundTint="@color/colorPurple"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Date"
+            android:editable="false"
+            android:textStyle="bold"
+            android:textColor="@color/colorPurple"/>
+        <EditText
+            android:id="@+id/txt_update_calender"
+            android:editable="false"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableRight="@drawable/ic_calendar"
+            android:backgroundTint="@color/colorPurple"/>
+
+
+    </LinearLayout>
+
+</FrameLayout>

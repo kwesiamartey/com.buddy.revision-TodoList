@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/splashScreenFragment">
+
+    <fragment
+        android:id="@+id/splashScreenFragment"
+        android:name="com.buddy.revision.SplashScreenFragment"
+        android:label="fragment_splash_screen"
+        tools:layout="@layout/fragment_splash_screen" />
+    <fragment
+        android:id="@+id/dashBoardFragment"
+        android:name="com.buddy.revision.DashBoardFragment"
+        android:label="fragment_dash_board"
+        tools:layout="@layout/fragment_dash_board" />
+    <fragment
+        android:id="@+id/listOFTodoFragment"
+        android:name="com.buddy.revision.ListOFTodoFragment"
+        android:label="fragment_list_o_f_todo"
+        tools:layout="@layout/fragment_list_o_f_todo"/>
+
+    <fragment
+        android:id="@+id/updateItemFragment"
+        android:name="com.buddy.revision.UpdateItemFragment"
+        android:label="fragment_update_item"
+        tools:layout="@layout/fragment_update_item" />
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.buddy.revision.LoginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" />
+    <fragment
+        android:id="@+id/signUpFragment"
+        android:name="com.buddy.revision.SignUpFragment"
+        android:label="fragment_sign_up"
+        tools:layout="@layout/fragment_sign_up" />
+    <fragment
+        android:id="@+id/forgoPasswordFragment"
+        android:name="com.buddy.revision.ForgoPasswordFragment"
+        android:label="fragment_forgo_password"
+        tools:layout="@layout/fragment_forgo_password" />
+    <fragment
+        android:id="@+id/listItemsFragment"
+        android:name="com.buddy.revision.ListItemsFragment"
+        android:label="fragment_list_items"
+        tools:layout="@layout/fragment_list_items" />
+   <fragment
+        android:id="@+id/updateItemListFragment"
+        android:name="com.buddy.revision.UpdateListItems"
+        android:label="fragment_list_items"
+        tools:layout="@layout/fragment_update_list_item" />
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.buddy.revision.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/searchFragment"
+        android:name="com.buddy.revision.SearchFragment"
+        android:label="fragment_search"
+        tools:layout="@layout/fragment_search" />
+
+
+</navigation>

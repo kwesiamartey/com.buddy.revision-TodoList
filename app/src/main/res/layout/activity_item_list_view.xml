@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="15dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/selected_txt_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:gravity="left"
+        android:text="12-09-2020 9:23:00"
+        android:textColor="@color/colorLightBlue"
+        android:textSize="14dp"
+        android:textStyle="italic|bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:layout_weight="2.6"
+        android:background="@drawable/i_shape"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="12dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_weight="1"
+                android:gravity="center|start"
+                android:orientation="vertical"
+                android:paddingLeft="12dp"
+                android:paddingTop="12dp"
+                android:paddingRight="12dp">
+
+                <TextView
+                    android:id="@+id/lt_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:ellipsize="end"
+                    android:fontFamily="sans-serif"
+                    android:singleLine="true"
+                    android:text="Title: ingredient for thw soup"
+                    android:textColor="@color/color_black"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/lt_description"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:fontFamily="sans-serif"
+                    android:maxLines="3"
+                    android:text="Description: Tomatoes, Onion, Pepper, Okro"
+                    android:textColor="@color/colordeepGrey"
+                    android:textStyle="normal" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/single_item_menu_ellipse"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="5dp"
+                android:gravity="top"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableRight="@drawable/ic_menu"
+                    android:paddingTop="5dp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:gravity="right"
+        android:orientation="horizontal"
+        android:paddingBottom="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.8"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/item_alarm_todo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableRight="@drawable/ic_add_alarm"
+                android:visibility="gone" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/status_completed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableRight="@drawable/ic_check_circle"
+                android:text="complete "
+                android:textColor="@color/color_green"
+                android:textStyle="italic"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/status_pending"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableRight="@drawable/ic_schedule"
+                android:text="pending "
+                android:textColor="@color/colorPurple"
+                android:textStyle="italic"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/status_canceled"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableRight="@drawable/ic_cancel"
+                android:text="canceled "
+                android:textColor="@color/colorOrangeColor"
+                android:textStyle="italic"
+                android:visibility="gone" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
